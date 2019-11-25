@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D523F083DA24E6DCB7F51E0 /* Pods_IGVideoDownloader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEDAA0A46B60A745C8D20C7 /* Pods_IGVideoDownloader.framework */; };
+		8DA31794F67F5830A124DC1B /* Pods_IGVideoDownloaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E864B9F9314B240B287D80 /* Pods_IGVideoDownloaderTests.framework */; };
+		9DCC9CBDB4DBC331913A9347 /* Pods_IGVideoDownloaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E02F2F26737610A03B71034 /* Pods_IGVideoDownloaderUITests.framework */; };
+		B38C07AD238680AB0062167B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B38C07AC238680AB0062167B /* AppDelegate.m */; };
+		B38C07B3238680AB0062167B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B38C07B2238680AB0062167B /* ViewController.m */; };
+		B38C07B8238680AC0062167B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B38C07B7238680AC0062167B /* Assets.xcassets */; };
+		B38C07BB238680AC0062167B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B38C07B9238680AC0062167B /* LaunchScreen.storyboard */; };
+		B38C07BE238680AC0062167B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B38C07BD238680AC0062167B /* main.m */; };
+		B38C07C8238680AD0062167B /* IGVideoDownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B38C07C7238680AD0062167B /* IGVideoDownloaderTests.m */; };
+		B38C07D3238680AD0062167B /* IGVideoDownloaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B38C07D2238680AD0062167B /* IGVideoDownloaderUITests.m */; };
+		B38C07E1238681880062167B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B38C07E0238681880062167B /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B38C07C4238680AD0062167B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B38C07A0238680AB0062167B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B38C07A7238680AB0062167B;
+			remoteInfo = IGVideoDownloader;
+		};
+		B38C07CF238680AD0062167B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B38C07A0238680AB0062167B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B38C07A7238680AB0062167B;
+			remoteInfo = IGVideoDownloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E0AA6C3F780603D1FDE3161 /* Pods-IGVideoDownloaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGVideoDownloaderUITests.debug.xcconfig"; path = "Target Support Files/Pods-IGVideoDownloaderUITests/Pods-IGVideoDownloaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0FEDAA0A46B60A745C8D20C7 /* Pods_IGVideoDownloader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGVideoDownloader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16E864B9F9314B240B287D80 /* Pods_IGVideoDownloaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGVideoDownloaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		248FB600BCD97287B25498CB /* Pods-IGVideoDownloaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGVideoDownloaderUITests.release.xcconfig"; path = "Target Support Files/Pods-IGVideoDownloaderUITests/Pods-IGVideoDownloaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		89ABC11BA218373B21B70806 /* Pods-IGVideoDownloader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGVideoDownloader.debug.xcconfig"; path = "Target Support Files/Pods-IGVideoDownloader/Pods-IGVideoDownloader.debug.xcconfig"; sourceTree = "<group>"; };
+		8F3D47276ECA41A86F122EC9 /* Pods-IGVideoDownloaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGVideoDownloaderTests.debug.xcconfig"; path = "Target Support Files/Pods-IGVideoDownloaderTests/Pods-IGVideoDownloaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E02F2F26737610A03B71034 /* Pods_IGVideoDownloaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGVideoDownloaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD078F880CAA98C692E6BE81 /* Pods-IGVideoDownloader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGVideoDownloader.release.xcconfig"; path = "Target Support Files/Pods-IGVideoDownloader/Pods-IGVideoDownloader.release.xcconfig"; sourceTree = "<group>"; };
+		B38C07A8238680AB0062167B /* IGVideo↓.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IGVideo↓.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B38C07AB238680AB0062167B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B38C07AC238680AB0062167B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B38C07B1238680AB0062167B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B38C07B2238680AB0062167B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B38C07B7238680AC0062167B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B38C07BA238680AC0062167B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B38C07BC238680AC0062167B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B38C07BD238680AC0062167B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B38C07C3238680AD0062167B /* IGVideoDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGVideoDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B38C07C7238680AD0062167B /* IGVideoDownloaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGVideoDownloaderTests.m; sourceTree = "<group>"; };
+		B38C07C9238680AD0062167B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B38C07CE238680AD0062167B /* IGVideoDownloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGVideoDownloaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B38C07D2238680AD0062167B /* IGVideoDownloaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGVideoDownloaderUITests.m; sourceTree = "<group>"; };
+		B38C07D4238680AD0062167B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B38C07E0238681880062167B /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		CFC66EA023210CF44C2619B9 /* Pods-IGVideoDownloaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGVideoDownloaderTests.release.xcconfig"; path = "Target Support Files/Pods-IGVideoDownloaderTests/Pods-IGVideoDownloaderTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B38C07A5238680AB0062167B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D523F083DA24E6DCB7F51E0 /* Pods_IGVideoDownloader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38C07C0238680AD0062167B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA31794F67F5830A124DC1B /* Pods_IGVideoDownloaderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38C07CB238680AD0062167B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DCC9CBDB4DBC331913A9347 /* Pods_IGVideoDownloaderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B38C079F238680AB0062167B = {
+			isa = PBXGroup;
+			children = (
+				B38C07AA238680AB0062167B /* IGVideoDownloader */,
+				B38C07C6238680AD0062167B /* IGVideoDownloaderTests */,
+				B38C07D1238680AD0062167B /* IGVideoDownloaderUITests */,
+				B38C07A9238680AB0062167B /* Products */,
+				B589EC236FB870CBCA4AEA6E /* Pods */,
+				D3833AFB8B7FF42FB3E1F171 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B38C07A9238680AB0062167B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B38C07A8238680AB0062167B /* IGVideo↓.app */,
+				B38C07C3238680AD0062167B /* IGVideoDownloaderTests.xctest */,
+				B38C07CE238680AD0062167B /* IGVideoDownloaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B38C07AA238680AB0062167B /* IGVideoDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				B38C07AB238680AB0062167B /* AppDelegate.h */,
+				B38C07AC238680AB0062167B /* AppDelegate.m */,
+				B38C07B1238680AB0062167B /* ViewController.h */,
+				B38C07B2238680AB0062167B /* ViewController.m */,
+				B38C07E0238681880062167B /* ViewController.xib */,
+				B38C07B7238680AC0062167B /* Assets.xcassets */,
+				B38C07B9238680AC0062167B /* LaunchScreen.storyboard */,
+				B38C07BC238680AC0062167B /* Info.plist */,
+				B38C07BD238680AC0062167B /* main.m */,
+			);
+			path = IGVideoDownloader;
+			sourceTree = "<group>";
+		};
+		B38C07C6238680AD0062167B /* IGVideoDownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				B38C07C7238680AD0062167B /* IGVideoDownloaderTests.m */,
+				B38C07C9238680AD0062167B /* Info.plist */,
+			);
+			path = IGVideoDownloaderTests;
+			sourceTree = "<group>";
+		};
+		B38C07D1238680AD0062167B /* IGVideoDownloaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B38C07D2238680AD0062167B /* IGVideoDownloaderUITests.m */,
+				B38C07D4238680AD0062167B /* Info.plist */,
+			);
+			path = IGVideoDownloaderUITests;
+			sourceTree = "<group>";
+		};
+		B589EC236FB870CBCA4AEA6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89ABC11BA218373B21B70806 /* Pods-IGVideoDownloader.debug.xcconfig */,
+				AD078F880CAA98C692E6BE81 /* Pods-IGVideoDownloader.release.xcconfig */,
+				8F3D47276ECA41A86F122EC9 /* Pods-IGVideoDownloaderTests.debug.xcconfig */,
+				CFC66EA023210CF44C2619B9 /* Pods-IGVideoDownloaderTests.release.xcconfig */,
+				0E0AA6C3F780603D1FDE3161 /* Pods-IGVideoDownloaderUITests.debug.xcconfig */,
+				248FB600BCD97287B25498CB /* Pods-IGVideoDownloaderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D3833AFB8B7FF42FB3E1F171 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FEDAA0A46B60A745C8D20C7 /* Pods_IGVideoDownloader.framework */,
+				16E864B9F9314B240B287D80 /* Pods_IGVideoDownloaderTests.framework */,
+				9E02F2F26737610A03B71034 /* Pods_IGVideoDownloaderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B38C07A7238680AB0062167B /* IGVideoDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B38C07D7238680AD0062167B /* Build configuration list for PBXNativeTarget "IGVideoDownloader" */;
+			buildPhases = (
+				CE20548676F935803B693FD8 /* [CP] Check Pods Manifest.lock */,
+				B38C07A4238680AB0062167B /* Sources */,
+				B38C07A5238680AB0062167B /* Frameworks */,
+				B38C07A6238680AB0062167B /* Resources */,
+				7BB910418EFDF372E33F2A6B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IGVideoDownloader;
+			productName = IGVideoDownloader;
+			productReference = B38C07A8238680AB0062167B /* IGVideo↓.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B38C07C2238680AD0062167B /* IGVideoDownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B38C07DA238680AD0062167B /* Build configuration list for PBXNativeTarget "IGVideoDownloaderTests" */;
+			buildPhases = (
+				C27064A83183940F2FCD364C /* [CP] Check Pods Manifest.lock */,
+				B38C07BF238680AD0062167B /* Sources */,
+				B38C07C0238680AD0062167B /* Frameworks */,
+				B38C07C1238680AD0062167B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B38C07C5238680AD0062167B /* PBXTargetDependency */,
+			);
+			name = IGVideoDownloaderTests;
+			productName = IGVideoDownloaderTests;
+			productReference = B38C07C3238680AD0062167B /* IGVideoDownloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B38C07CD238680AD0062167B /* IGVideoDownloaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B38C07DD238680AD0062167B /* Build configuration list for PBXNativeTarget "IGVideoDownloaderUITests" */;
+			buildPhases = (
+				1ED534BF6DB89CF65F409E1D /* [CP] Check Pods Manifest.lock */,
+				B38C07CA238680AD0062167B /* Sources */,
+				B38C07CB238680AD0062167B /* Frameworks */,
+				B38C07CC238680AD0062167B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B38C07D0238680AD0062167B /* PBXTargetDependency */,
+			);
+			name = IGVideoDownloaderUITests;
+			productName = IGVideoDownloaderUITests;
+			productReference = B38C07CE238680AD0062167B /* IGVideoDownloaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B38C07A0238680AB0062167B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = yixunyun;
+				TargetAttributes = {
+					B38C07A7238680AB0062167B = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					B38C07C2238680AD0062167B = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = B38C07A7238680AB0062167B;
+					};
+					B38C07CD238680AD0062167B = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = B38C07A7238680AB0062167B;
+					};
+				};
+			};
+			buildConfigurationList = B38C07A3238680AB0062167B /* Build configuration list for PBXProject "IGVideoDownloader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B38C079F238680AB0062167B;
+			productRefGroup = B38C07A9238680AB0062167B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B38C07A7238680AB0062167B /* IGVideoDownloader */,
+				B38C07C2238680AD0062167B /* IGVideoDownloaderTests */,
+				B38C07CD238680AD0062167B /* IGVideoDownloaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B38C07A6238680AB0062167B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38C07BB238680AC0062167B /* LaunchScreen.storyboard in Resources */,
+				B38C07E1238681880062167B /* ViewController.xib in Resources */,
+				B38C07B8238680AC0062167B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38C07C1238680AD0062167B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38C07CC238680AD0062167B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ED534BF6DB89CF65F409E1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IGVideoDownloaderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BB910418EFDF372E33F2A6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IGVideoDownloader/Pods-IGVideoDownloader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IGVideoDownloader/Pods-IGVideoDownloader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IGVideoDownloader/Pods-IGVideoDownloader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C27064A83183940F2FCD364C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IGVideoDownloaderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE20548676F935803B693FD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IGVideoDownloader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B38C07A4238680AB0062167B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38C07B3238680AB0062167B /* ViewController.m in Sources */,
+				B38C07AD238680AB0062167B /* AppDelegate.m in Sources */,
+				B38C07BE238680AC0062167B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38C07BF238680AD0062167B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38C07C8238680AD0062167B /* IGVideoDownloaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38C07CA238680AD0062167B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38C07D3238680AD0062167B /* IGVideoDownloaderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B38C07C5238680AD0062167B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B38C07A7238680AB0062167B /* IGVideoDownloader */;
+			targetProxy = B38C07C4238680AD0062167B /* PBXContainerItemProxy */;
+		};
+		B38C07D0238680AD0062167B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B38C07A7238680AB0062167B /* IGVideoDownloader */;
+			targetProxy = B38C07CF238680AD0062167B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B38C07B9238680AC0062167B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B38C07BA238680AC0062167B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B38C07D5238680AD0062167B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B38C07D6238680AD0062167B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B38C07D8238680AD0062167B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89ABC11BA218373B21B70806 /* Pods-IGVideoDownloader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 989ZNTFG6D;
+				INFOPLIST_FILE = IGVideoDownloader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.caiyan.IGVideoDownloader;
+				PRODUCT_NAME = "IGVideo↓";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B38C07D9238680AD0062167B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD078F880CAA98C692E6BE81 /* Pods-IGVideoDownloader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 989ZNTFG6D;
+				INFOPLIST_FILE = IGVideoDownloader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.caiyan.IGVideoDownloader;
+				PRODUCT_NAME = "IGVideo↓";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B38C07DB238680AD0062167B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F3D47276ECA41A86F122EC9 /* Pods-IGVideoDownloaderTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 989ZNTFG6D;
+				INFOPLIST_FILE = IGVideoDownloaderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.caiyan.IGVideoDownloaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IGVideoDownloader.app/IGVideoDownloader";
+			};
+			name = Debug;
+		};
+		B38C07DC238680AD0062167B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC66EA023210CF44C2619B9 /* Pods-IGVideoDownloaderTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 989ZNTFG6D;
+				INFOPLIST_FILE = IGVideoDownloaderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.caiyan.IGVideoDownloaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IGVideoDownloader.app/IGVideoDownloader";
+			};
+			name = Release;
+		};
+		B38C07DE238680AD0062167B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E0AA6C3F780603D1FDE3161 /* Pods-IGVideoDownloaderUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 989ZNTFG6D;
+				INFOPLIST_FILE = IGVideoDownloaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.caiyan.IGVideoDownloaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IGVideoDownloader;
+			};
+			name = Debug;
+		};
+		B38C07DF238680AD0062167B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 248FB600BCD97287B25498CB /* Pods-IGVideoDownloaderUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 989ZNTFG6D;
+				INFOPLIST_FILE = IGVideoDownloaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.caiyan.IGVideoDownloaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IGVideoDownloader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B38C07A3238680AB0062167B /* Build configuration list for PBXProject "IGVideoDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B38C07D5238680AD0062167B /* Debug */,
+				B38C07D6238680AD0062167B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B38C07D7238680AD0062167B /* Build configuration list for PBXNativeTarget "IGVideoDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B38C07D8238680AD0062167B /* Debug */,
+				B38C07D9238680AD0062167B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B38C07DA238680AD0062167B /* Build configuration list for PBXNativeTarget "IGVideoDownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B38C07DB238680AD0062167B /* Debug */,
+				B38C07DC238680AD0062167B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B38C07DD238680AD0062167B /* Build configuration list for PBXNativeTarget "IGVideoDownloaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B38C07DE238680AD0062167B /* Debug */,
+				B38C07DF238680AD0062167B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B38C07A0238680AB0062167B /* Project object */;
+}
