@@ -79,6 +79,8 @@
     
     if([self.srcUrlString isEqualToString:@""]){//如果经过上面的步骤没有得到地址说明纸移动端,移动端的html内容和desktop不一样
         NSString *videoString = [self getHtmlStringFrom:mainstring ByBeginString:@"\"og:video\" content=\"" AndEndString:@">"];
+        NSLog(@"mainString-->%@",mainstring);
+        NSLog(@"videoString-->%@",videoString);
         self.srcUrlString =  [self getHtmlStringFrom:videoString ByBeginString:@"https" AndEndString:@""];
     }
     
@@ -203,7 +205,7 @@
     NSRange resultRange = NSMakeRange(0, rangeEnd.location);
     NSString *resultString = [tempString substringWithRange:resultRange];
     resultString = [self filterString:resultString];
-    NSLog(@"%@->%@",beginString,resultString);
+//    NSLog(@"%@->%@",beginString,resultString);
 
     return resultString;
 }
